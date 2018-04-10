@@ -2,7 +2,7 @@
 	"name": "three-pathfinding",
 	"version": "0.5.5",
 	"description": "Navigation mesh toolkit for three.js, based on PatrolJS",
-	"main": "src/index.js",
+	"main": "dist/three-pathfinding.js",
 	"scripts": {
 		"dev": "budo browser.js:bundle.js --live",
 		"docs": "documentation build src/index.js --shallow -f md | replace-between --target README.md --token API",
